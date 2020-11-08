@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/jooojo" />
+
+    <TableLayout
+        android:layout_width="207dp"
+        android:layout_height="122dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0.69in"
+        android:layout_marginTop="0.02in"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0.05in">
+
+            <EditText
+                android:id="@+id/editTextTime"
+                android:layout_width="159dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="   seconds "
+                android:inputType="time"
+                android:textAllCaps="false"
+                android:textColorHint="#EBF6F4"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="183dp"
+            android:layout_height="81dp">
+
+            <TextView
+                android:id="@+id/Testp"
+                android:layout_width="163dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="13dp"
+                android:text="  0:00:00 "
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_marginStart="19dp"
+                android:textColor="#EBF6F4"/>
+
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0.5in"
+        android:orientation="vertical"
+        tools:context=".MainActivity3">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="StartTimer"
+                android:text="@string/start"
+                android:textSize="19sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="354dp"
+            android:layout_height="503dp">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="pauseTimer"
+                android:text="@string/pause"
+                android:textSize="19sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="108dp"
+                android:layout_height="wrap_content"
+                android:onClick="stopTimer"
+                android:text="@string/stop"
+                android:textSize="19sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>

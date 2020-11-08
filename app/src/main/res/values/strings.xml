@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name"> fitness App </string>
+    <string name="gender">gender</string>
+    <string name="name">Name</string>
+    <string name="enter_your_name">enter your name</string>
+    <string name="weight">weight</string>
+    <string name="height">height</string>
+    <string name="textview">TextView</string>
+    <string name="send">send</string>
+    <string name="BMI">BMI</string>
+    <string name="timer">Timer</string>
+    <string name="enter_height_in_cm">enter height in cm</string>
+    <string name="todo">TODO</string>
+    <string name="pause">pause</string>
+    <string name="start">Start</string>
+    <string name="stop">stop</string>
+    <string name="enter_weigth_in_kg">enter weigth in kg</string>
+    <string name="todo2">TODO</string>
+    <string name="seconds">Seconds</string>
+    <array name="gen">
+        <item>male</item>
+        <item>female</item>
+    </array>
+</resources>
